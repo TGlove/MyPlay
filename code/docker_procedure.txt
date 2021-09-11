@@ -1,0 +1,11 @@
+docker bulid -t myplay .
+
+docker images
+
+docker run myplay
+
+
+# delete
+docker rm 42efb3d205ed  # contrainer ID
+
+docker rmi myplay #image name
